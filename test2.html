@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects Section</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- Custom CSS for Projects Section --- */
+        body {
+            background-color: #212529;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .projects-section {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        .fancy-title {
+            font-weight: 700;
+            margin-bottom: 1.5rem; 
+            color: #00e5ff;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        /* --- Browser Card Styles --- */
+        .browser-card {
+            background-color: #f8f9fa; 
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease-in-out;
+            overflow: hidden;
+        }
+
+        .browser-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .browser-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 1rem;
+            background-color: #e9ecef;
+        }
+
+        .browser-dots {
+            display: flex;
+        }
+
+        .browser-dots .dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #ced4da;
+            margin-right: 0.25rem;
+        }
+
+        .address-bar {
+            flex-grow: 1;
+            background-color: #ffffff;
+            border-radius: 0.25rem;
+            padding: 0.25rem 0.75rem;
+            margin: 0 1rem; 
+            font-size: 0.8rem;
+            color: #6c757d;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .browser-arrow a {
+            color: #495057;
+            font-size: 1.2rem;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .browser-arrow a:hover {
+            color: #007bff;
+        }
+
+        .browser-screen {
+            position: relative;
+        }
+
+        .browser-screen img {
+            width: 100%;
+            height: 288px;
+            object-fit: cover;
+            display: block; 
+        }
+        /* --- Project Info (Title & Button) Styles --- */
+        .project-info {
+            padding: 1rem 0;
+        }
+
+        .project-title {
+            color: #f8f9fa;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-shadow: 0 2px 4px rgb(255, 1, 80); 
+        }
+
+        .btn-demo {
+            background: linear-gradient(45deg, #0d6efd, #0dcaf0);
+            border: none;
+            color: #ffffff;
+            padding: 0.6rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(13, 110, 253, 0.25);
+        }
+
+        .btn-demo:hover {
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(13, 202, 240, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section-6 Projects -->
+    <div class="container projects-section">
+        <div class="row">
+            <div class="col-sm-12 text-light text-center">
+                <h1 class="fancy-title">My Projects</h1>
+            </div>
+        </div>
+
+        <div class="row mt-5 g-4 justify-content-center">
+            
+            <!-- Project Card 1 -->
+            <div class="col-sm-4">
+                <div class="browser-card">
+                    <!-- Browser UI Header -->
+                    <div class="browser-header">
+                        <div class="browser-dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="address-bar">https://github.com/user/career-arcade</div>
+                        <div class="browser-arrow">
+                            <a href="#" target="_blank" title="View Project">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Browser Screen -->
+                    <div class="browser-screen">
+                        <a href="#" target="_blank">
+                             <img src="https://placehold.co/500x300/2c3034/00e5ff?text=CareerArcade" alt="CareerArcade Project" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Card 2 -->
+            <div class="col-sm-4">
+                <div class="browser-card">
+                    <!-- Browser UI Header -->
+                    <div class="browser-header">
+                        <div class="browser-dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="address-bar">https://github.com/user/expense-tracker</div>
+                        <div class="browser-arrow">
+                            <a href="#" target="_blank" title="View Project">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Browser Screen -->
+                    <div class="browser-screen">
+                        <a href="#" target="_blank">
+                             <img src="https://placehold.co/500x300/2c3034/00e5ff?text=Expense+Tracker" alt="Expense Tracker Project" />
+                        </a>
+                    </div>
+                </div>
+                <!-- Project Info -->
+                <div class="project-info text-center">
+                    <h5 class="project-title">Expense Tracker</h5>
+                    <a href="#" class="btn-demo">Demo</a>
+                </div>
+            </div>
+
+            <!-- Project Card 3 -->
+            <div class="col-sm-4">
+                <div class="browser-card">
+                    <!-- Browser UI Header -->
+                    <div class="browser-header">
+                        <div class="browser-dots">
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                            <div class="dot"></div>
+                        </div>
+                        <div class="address-bar">https://github.com/user/portfolio-site</div>
+                        <div class="browser-arrow">
+                            <a href="#" target="_blank" title="View Project">
+                                <i class="fas fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Browser Screen -->
+                    <div class="browser-screen">
+                        <a href="#" target="_blank">
+                            <img src="image/about-black.png" alt="Another Project" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- Section-6 Projects -->
+
+</body>
+</html>

@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Divyansh Srivastava || Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Lilita+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Main body -->
+    <div class="container-fluid">
+        <!-- navbar -->
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-dark text-light p-3 fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand fancy-title" href="#">Divyansh's Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contact-me">Contact Me</a>
+                        </li>
+                    </ul>
+                        <div class="btn-group">
+                            <button class="btn hire-me" onclick="hireMe()">Hire Me</button>                        
+                        </div>
+
+                    </div>
+                </div>
+                </nav>
+            </div>
+        </div>
+        <!-- navbar -->
+        <!-- slider section -->
+        <div class="container mt-5" id="home">
+            <div class="row">
+                <div class="col-sm-6 my-auto left">
+                    <h1 class="display-4 my-auto text-light heading">Hi, I am <br> <span class="cst">&lt;Divyansh Srivastava/&gt;</span> 👋</h1>
+                    <p class="lead text-light">Software Engineer/Web Developer</p>
+                    <p class="home-description text-light">
+                        “Hi, I’m Divyansh, a student and aspiring full-stack web developer with hands-on experience in technologies like .NET, Java, and MERN. I’m currently doing an internship at Softpro India, where I’m gaining practical exposure to real-world projects and enhancing my development skills.”
+                    </p>
+                    <a href="image/resume.pdf" download class="btn button">Download CV <i class="fas fa-download ms-2"></i></a>
+                    <a href="#projects" class="btn button">Our Projects <i class="fas fa-download ms-2"></i></a>
+
+                    <div class="mt-4">
+                        <div class="social-icons d-inline-block">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <a href="#" class="btn linkedin-btn ms-2" target="_blank">
+                            Connect <i class="fab fa-linkedin-in ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="div"><img src="image/div2-r.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <!-- slider section -->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Section-2 About Me-->
+        <div class="container mt-5 mb-5" id="aboutMe">
+        <div class="row">
+            <div class="col-sm-12 text-light text-center">
+            <h1 class="underline fancy-title">About Me</h1>
+            </div>
+
+            <div class="row align-items-center mt-4">
+                <!-- Profile Image -->
+                <div class="col-sm-4 text-center">
+                    <div class="profilepic">
+                    <img src="image/aboutMe.png" alt="Profile Pic">
+                    </div>
+                </div>
+
+                <!-- About Me Card -->
+                <div class="col-sm-8">
+                    <div class="card about-card bg-dark text-light shadow-lg p-4 rounded-4 border-0">
+                    <h3 class="fw-bold text-gradient mb-3">
+                        <i class="fas fa-user-circle me-2"></i> Who am I..?
+                    </h3>
+                    <hr class="custom-hr">
+
+                    <p>
+                        My name is <span class="fw-bold text-warning">Divya</span>, and I am a 
+                        passionate and enthusiastic learner currently pursuing my studies while building 
+                        strong skills in <span class="highlight">software and web development</span>. 
+                        With a foundation in programming languages like <b>C</b>, <b>C++</b>, <b>Java</b>, 
+                        and <b>.NET</b>, along with database management systems such as 
+                        <b>MySQL</b> and <b>MS Access</b>, I am continuously working on enhancing my technical knowledge.
+                    </p>
+
+                    <p>
+                        I also have hands-on experience in front-end development using 
+                        <span class="highlight-alt">HTML, CSS, and JavaScript</span>, and I am working 
+                        towards becoming a <b>Full-Stack Web Developer</b> by exploring modern frameworks 
+                        and technologies like <b>MERN</b> and <b>.NET</b>.
+                    </p>
+
+                    <p>
+                        At present, I am doing an <span class="text-primary fw-bold">internship</span>, which provides me 
+                        with valuable exposure to real-world projects, teamwork, and professional practices. 
+                        This experience is helping me strengthen my <b>problem-solving abilities</b>, 
+                        improve my coding efficiency, and understand how software solutions are developed 
+                        and delivered in practical environments.
+                    </p>
+
+                    <p>
+                        I have also worked on projects such as 
+                        <span class="fw-bold text-warning">“Darpan – Online News Portal”</span>, 
+                        an ASP.NET-based Web Forms application inspired by live news websites, 
+                        which enhanced my skills in <b>web application design</b>, 
+                        <b>database connectivity</b>, and <b>project structuring</b>.
+                    </p>
+
+                    <p>
+                        Driven by curiosity and dedication, I aim to grow into a skilled 
+                        <span class="fw-bold highlight">software developer</span> who can contribute 
+                        to building impactful and user-friendly digital solutions.
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Section-2 About Me-->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Section-3 - Qualification -->
+        <div class="container mt-5 mb-5" id="education">
+        <div class="row">
+            <div class="col-sm-12 text-light text-center">
+            <h1 class="underline fancy-title">Qualification</h1>
+            </div>
+        </div>
+
+        <div class="timeline">
+            <!-- Item 1 -->
+            <div class="timeline-item left">
+            <div class="content-box">
+                <h5>BCA</h5>
+                <span>2022 - 2025 | IGNOU</span>
+            </div>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="timeline-item right">
+            <div class="content-box">
+                <h5>Diploma</h5>
+                <span>2019 - 2022 | BTEUP</span>
+            </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="timeline-item left">
+            <div class="content-box">
+                <h5>Intermediate</h5>
+                <span>2018 - 2019 | CBSE</span>
+            </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="timeline-item right">
+            <div class="content-box">
+                <h5>High School</h5>
+                <span>2016 - 2017 | CBSE</span>
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- Section-3 - Qualification -->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Section-4 Skills -->
+        <div class="container mt-5 mb-5" id="skills">
+        <div class="row">
+            <div class="col-sm-12 text-light text-center">
+            <h1 class="underline fancy-title">Skills</h1>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+            <div class="skill-card">
+                <h5>HTML5</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 90%">90%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h5>CSS</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 85%">85%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h5>JavaScript</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 70%">70%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h5>Bootstrap</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 80%">80%</div>
+                </div>
+            </div>
+            </div>
+
+            <div class="col-md-6">
+            <div class="skill-card">
+                <h5>C / C#</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 75%">75%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h5>Java</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 65%">65%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h5>React.js</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 60%">60%</div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h5>Tailwind CSS</h5>
+                <div class="skill-bar">
+                <div class="skill-progress" style="width: 50%">50%</div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <!-- Section-4 Skills-->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Section-5 Experience -->
+        <div class="container mt-5 mb-5" id="experience">
+            <div class="row">
+                <div class="col-sm-12 text-light text-center">
+                    <h1 class="underline fancy-title">Experience</h1>
+                </div>
+                <div class="row mt-5">
+                    <!-- Left Image -->
+                    <div class="col-sm-4">
+                        <div class="profilepic">
+                            <img src="image/experienceImg.png" alt="Experience Image">
+                        </div>
+                    </div>
+
+                    <!-- Right Timeline -->
+                    <div class="col-sm-8 my-auto">
+                        <div class="experience-card">
+                            <h4 class="fw-bold color">Internship - Web Development</h4>
+                            <p class="text-light">Currently working on real-world projects involving ASP.NET, Bootstrap, and SQL Server. 
+                            Gaining valuable experience in teamwork, problem-solving, and professional practices.</p>
+                        </div>
+                        <div class="experience-card">
+                            <h4 class="fw-bold color">Project - Darpan News Portal</h4>
+                            <p class="text-light">Developed an ASP.NET Web Forms news portal inspired by real news websites. 
+                            Implemented category-based news management, database integration, and responsive layout.</p>
+                        </div>
+                        <div class="experience-card">
+                            <h4 class="fw-bold color">Front-End Development</h4>
+                            <p class="text-light">Hands-on experience with HTML, CSS, Bootstrap, and JavaScript. 
+                            Built multiple interactive pages with responsive design and modern layouts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section-5 Experience -->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Section-6 Projects -->
+        <div class="container mt-5 mb-5 projects-section" id="projects">
+            <div class="row">
+                <div class="col-sm-12 text-light text-center">
+                <h1 class="underline fancy-title">Projects</h1>
+                </div>
+            </div>
+
+            <div class="row mt-5 g-4 justify-content-center">
+                
+                <!-- Project Card 1 -->
+                <div class="col-sm-4">
+                    <div class="browser-card">
+                        <!-- Browser UI Header -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="address-bar">https://github.com/divyanshsrigit11/REC-Gonda-Clone.git</div>
+                            <div class="browser-arrow">
+                                <a href="https://github.com/divyanshsrigit11/REC-Gonda-Clone.git" target="_blank" title="View Project">
+                                    <i class="fas fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Browser Screen -->
+                        <div class="browser-screen">
+                            <a href="https://rec-gonda-clone.vercel.app/" target="_blank">
+                                <img src="image/projects/rec.png" alt="REC Gonda Project" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info text-center">
+                        <h5 class="project-title">REC Gonda Clone</h5>
+                        <a href="https://rec-gonda-clone.vercel.app/" class="btn-demo">Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="col-sm-4">
+                    <div class="browser-card">
+                        <!-- Browser UI Header -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="address-bar">https://github.com/divyanshsrigit11/Darpan.git</div>
+                            <div class="browser-arrow">
+                                <a href="https://github.com/divyanshsrigit11/Darpan.git" target="_blank" title="View Project">
+                                    <i class="fas fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Browser Screen -->
+                        <div class="browser-screen">
+                            <a href="#" target="_blank">
+                                <img src="image/projects/Darpan.png" alt="Expense Tracker Project" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info text-center">
+                        <h5 class="project-title">Darpan News Portal</h5>
+                        <a href="https://github.com/divyanshsrigit11/Darpan.git" class="btn-demo">Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="col-sm-4">
+                    <div class="browser-card">
+                        <!-- Browser UI Header -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="address-bar">https://github.com/divyanshsrigit11/Darpan-AdminWeb.git</div>
+                            <div class="browser-arrow">
+                                <a href="https://github.com/divyanshsrigit11/Darpan-AdminWeb.git" target="_blank" title="View Project">
+                                    <i class="fas fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Browser Screen -->
+                        <div class="browser-screen">
+                            <a href="#" target="_blank">
+                                <img src="image/projects/darpan-admin.png" alt="Another Project" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info text-center">
+                        <h5 class="project-title">Darpan-Admin Portal</h5>
+                        <a href="https://github.com/divyanshsrigit11/Darpan-AdminWeb.git" class="btn-demo">Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="col-sm-4">
+                    <div class="browser-card">
+                        <!-- Browser UI Header -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="address-bar">https://github.com/divyanshsrigit11/flicksearch.git</div>
+                            <div class="browser-arrow">
+                                <a href="https://github.com/divyanshsrigit11/flicksearch.git" target="_blank" title="View Project">
+                                    <i class="fas fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Browser Screen -->
+                        <div class="browser-screen">
+                            <a href="https://flickmania.vercel.app/" target="_blank">
+                                <img src="image/projects/flickMania.png" alt="Flick Mania" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info text-center">
+                        <h5 class="project-title">Flick Mania</h5>
+                        <a href="https://flickmania.vercel.app/" class="btn-demo">Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="col-sm-4">
+                    <div class="browser-card">
+                        <!-- Browser UI Header -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="address-bar">https://github.com/divyanshsrigit11/My-Portfolio.git</div>
+                            <div class="browser-arrow">
+                                <a href="https://github.com/divyanshsrigit11/My-Portfolio.git" target="_blank" title="View Project">
+                                    <i class="fas fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Browser Screen -->
+                        <div class="browser-screen">
+                            <a href="https://my-portfolio-five-zeta-58.vercel.app/" target="_blank">
+                                <img src="image/projects/portfolio.png" alt="Another Project" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info text-center">
+                        <h5 class="project-title">Personal Portfolio</h5>
+                        <a href="https://my-portfolio-five-zeta-58.vercel.app/" class="btn-demo">Demo</a>
+                    </div>
+                </div>
+
+                <!-- Project Card 6 -->
+                <div class="col-sm-4">
+                    <div class="browser-card">
+                        <!-- Browser UI Header -->
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                                <div class="dot"></div>
+                            </div>
+                            <div class="address-bar">https://github.com/divyanshsrigit11/completeRegistrationForm.git</div>
+                            <div class="browser-arrow">
+                                <a href="https://github.com/divyanshsrigit11/completeRegistrationForm.git" target="_blank" title="View Project">
+                                    <i class="fas fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Browser Screen -->
+                        <div class="browser-screen">
+                            <a href="https://divyanshsrigit11.github.io/completeRegistrationForm/" target="_blank">
+                                <img src="image/projects/registration.png" alt="Student Registration Portal" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Project Info -->
+                    <div class="project-info text-center">
+                        <h5 class="project-title">Student Registration Portal</h5>
+                        <a href="https://divyanshsrigit11.github.io/completeRegistrationForm/" class="btn-demo">Demo</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Section-6 Projects -->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+        
+        <!-- Section-7 contact -->
+        <div class="container mt-5 mb-5" id="contact-me">
+            <div class="row">
+                <div class="col-sm-12 text-light text-center">
+                    <h1 class="underline fancy-title">Contact Me</h1>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <!-- Contact Details -->
+                <div class="col-md-8">
+                    <!-- Cards -->
+                    <div class="contact-item d-flex align-items-center mb-4">
+                        <div class="icon-box icon-box-wrapper">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-1 contact-head">Address</h5>
+                            <p class="mb-0 text-light">yourname@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex align-items-center mb-4">
+                        <div class="icon-box icon-box-wrapper">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-1 contact-head">Phone</h5>
+                            <p class="mb-0 text-light">yourname@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex align-items-center mb-4">
+                        <div class="icon-box icon-box-wrapper">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="ms-3">
+                            <h5 class="mb-1 contact-head">Email</h5>
+                            <p class="mb-0 text-light">yourname@example.com</p>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- Connect with us -->
+                    <div class="mt-5">
+                        <h6 class="social-icons-title">Connect with us</h6>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-4">
+                    <div class="contact-form-wrapper">
+                        <h3 class="text-light">Send Message</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="4" placeholder="Type your Message..."></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-submit">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Section-7 contact-->
+        <!-- SVG Divider -->
+        <div class="section-divider"></div>
+
+        <!-- Section-8 Footer -->
+        <!-- Footer -->
+        <footer class="footer-section text-light mt-5">
+        <div class="container py-5">
+            <div class="row">
+            
+            <!-- About -->
+            <div class="col-md-3 mb-3 text-center">
+                <h5 class="fw-bold">Divyansh' Portfolio</h5>
+                <img src="image/footer-about-remove.png" alt="Portfolio Logo" class="img-fluid small rounded shadow-sm" style="max-width: 120px;">
+                <p class="small mt-2">Building impactful web solutions with MERN & modern tech.</p>
+            </div>
+
+            <!-- Recruiter Section (Skills/Highlights) -->
+            <div class="col-md-3 mb-3">
+                <h5 class="fw-bold">Why Hire Me..?</h5>
+                <ul class="list-unstyled small">
+                <li><i class="fas fa-check-circle text-success me-2"></i> Full-Stack Web Developer</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Proficient in .NET, MERN</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Strong DBMS & SQL skills</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Internship Experience</li>
+                <li><i class="fas fa-check-circle text-success me-2"></i> Open to Relocation</li>
+                </ul>
+            </div>
+
+            <!-- Links -->
+            <div class="col-md-3 mb-3">
+                <h5 class="fw-bold">Quick Links</h5>
+                <ul class="list-unstyled small">
+                <li><a href="#home" class="text-light text-decoration-none"><i class="fa-solid fa-house-chimney"></i> Home</a></li>
+                <li><a href="#aboutMe" class="text-light text-decoration-none mt-3"><i class="fa-solid fa-address-card"></i> About Me</a></li>
+                <li><a href="#education" class="text-light text-decoration-none mt-3"><i class="fa-solid fa-school"></i> Education</a></li>
+                <li><a href="#projects" class="text-light text-decoration-none mt-3"><i class="fa-solid fa-briefcase"></i> Projects</a></li>
+                <li><a href="#contact-me" class="text-light text-decoration-none mt-3"><i class="fa-solid fa-mobile"></i> Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter & Social -->
+            <div class="col-md-3 mb-3">
+                <h5 class="fw-bold">Newsletter</h5>
+                <form class="d-flex mb-3" action="https://formspree.io/f/mpwpjzvq" method="POST">
+                <input type="email" class="form-control me-2" placeholder="Enter your email">
+                <button class="btn btn-primary" type="submit">
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+                </form>
+
+                <!-- Social icons (reusing your .social-icons) -->
+                <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            </div>
+
+            <hr class="border-secondary">
+
+            <div class="row">
+            <div class="col text-center">
+                <p class="small mb-0">&copy; 2025 Divyansh Srivastava. All Rights Reserved.</p>
+            </div>
+            </div>
+        </div>
+        </footer>
+
+        <!-- Section-8 Footer -->
+
+        <!-- Scroll to Top Button -->
+        <a href="#" id="scrollTopBtn" class="scroll-to-top-btn" title="Go to top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+
+    </div>
+    <!-- Bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
